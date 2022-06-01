@@ -1,0 +1,116 @@
+@font-face {
+	font-family: Reey;
+	src: url(../fonts/Reey-Regular.otf);
+}
+
+h1, h2, h3, h4, h5, h6{
+
+	margin-bottom: 35px;
+	margin-top: 0;
+}
+
+section{
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.Reey-h{
+    font-size: 70px;
+	font-family: Reey;
+	font-weight: 400;
+	color: white;
+    word-spacing: -5px;
+}
+.black-section{
+	background-color: #27292c;
+}
+.Two-Towers{
+	display: flex;
+	justify-content: center;
+}
+.Two-Towers p{
+    font-family:'Montserrat', sans-serif;
+    display: block;
+	color: #d4d4d5;
+    max-width: 500px;
+    margin: 50px;
+    text-align: start;
+    line-height: 1.6;
+}
+.btn-main {
+	background-color:  black;
+	color: #ffff;
+    border-radius: 30px;
+    font-weight: 800;
+    padding:10px 75px;
+    font-size: 25px;
+    line-height: 50px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.btn-main:hover{
+    background-color:  #ffff;
+	color: black; 
+}
+.btn-second {
+	background-color:  #ffff;
+	color: black;
+	border: 1px solid #ffff;
+    padding:5px 50px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+.btn-second:hover{
+    background-color:  black;
+	color: #ffff;
+}
+
+.page-salad{
+	background-color: white;
+    padding-bottom: 0;
+}
+.page-salad h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+    word-spacing: 10px;
+    line-height: 0.5;
+}
+.page-salad p{
+	line-height: 200%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35px;
+	font-weight: 400;
+    line-height: 1;
+    word-spacing: 5px;
+}
+.salad-description{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.description{
+    display: block;
+    max-width: 530px;
+    text-align: start; 
+}
+
+@media (max-width: 770px) {
+    .salad-description{
+        display:inline-block;
+        align-content: center;   
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
+    img{
+        display: none;
+    }
+    .Two-Towers{
+        margin: 15px;
+    }
+}
